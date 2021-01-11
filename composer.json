@@ -1,0 +1,23 @@
+{
+    "name": "flaviocardoso/php-arquitetura",
+    "description": "Arquitetura em php como organizar arquivos de forma padrão",
+    "authors": [
+        {
+            "name": "Flavio Cardoso",
+            "email": "flavioc41@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flavio\\Arquitetura\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Flavio\\Arquitetura\\Test": "test/"
+        }
+    }
+}
