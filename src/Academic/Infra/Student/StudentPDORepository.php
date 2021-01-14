@@ -6,7 +6,7 @@ use Flavio\Arquitetura\Academic\Domain\Student\Student;
 use Flavio\Arquitetura\Academic\Domain\Student\StudentNotFound;
 use Flavio\Arquitetura\Academic\Domain\Student\StudentRepository;
 use PDO;
-/** flavio */
+
 class StudentPDORepository implements StudentRepository
 {
     private PDO $connection;
